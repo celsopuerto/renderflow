@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  color: #fff;
+  min-height: 100vh;
+  background-color: #09090b;
+}
+
+.form-label {
+  @apply block mb-2 text-xl font-semibold font-inter;
+}
+
+option {
+  @apply bg-[#09090b];
+}
